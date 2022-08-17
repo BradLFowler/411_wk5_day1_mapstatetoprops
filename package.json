@@ -1,25 +1,28 @@
 {
-  "name": "instructor_411_wk5_day1_mapstatetoprops",
+  "name": "411_wk5_day1_mapstatetoprops",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://BradLFowler.github.io/411_wk5_day1_mapstatetoprops",
   "dependencies": {
-    "@mui/material": "^5.8.2",
-    "@mui/icons-material": "^5.8.2",
-    "@emotion/styled": "^11.8.1",
-    "@emotion/react": "^11.9.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-redux": "^7.1.0",
-    "react-router": "^5.0.1",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
-    "redux": "^4.0.4"
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.10.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router": "*",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

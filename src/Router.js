@@ -1,18 +1,18 @@
 import React from 'react'
-import { Switch, Route } from 'react-router'
-import Home from './components/Home'
+import { Routes, Route } from 'react-router'
+import HomeContainer from './containers/HomeContainer'
 import About from './components/About'
-import Car from './components/Car'
-import Dashboard from './components/Dashboard'
+import CarContainer from './containers/CarContainer'
+import DashboardContainer from './containers/DashboardContainer'
 
 const Router = () => {
     return (
-        <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/car/:id" component={Car} />
-            <Route path="/dashboard" component={Dashboard} />
-        </Switch>
+        <Routes>
+            <Route exact path="/" element={<HomeContainer />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/car/:id" element={<CarContainer />} />
+            <Route path="/dashboard" element={<DashboardContainer />} />
+        </Routes>
     );
 };
 
