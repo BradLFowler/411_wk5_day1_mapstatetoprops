@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/411_wk5_day1_mapstatetoprops/static/css/main.a29c43ac.css",
+    "main.js": "/411_wk5_day1_mapstatetoprops/static/js/main.dd782419.js",
+    "index.html": "/411_wk5_day1_mapstatetoprops/index.html",
+    "main.a29c43ac.css.map": "/411_wk5_day1_mapstatetoprops/static/css/main.a29c43ac.css.map",
+    "main.dd782419.js.map": "/411_wk5_day1_mapstatetoprops/static/js/main.dd782419.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a29c43ac.css",
+    "static/js/main.dd782419.js"
+  ]
+}
